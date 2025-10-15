@@ -13,3 +13,15 @@
 
 /* Add your CSS styles below this line */
 
+a:hover {
+      background-color: rgb(43, 43, 255);
+      border-radius: 400px;
+}
+
+.card::before {
+    content: "Sale";
+    background-color: red;
+    color:white;
+    font-size: 25px;
+    border-radius: 800px;
+}
